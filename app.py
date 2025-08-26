@@ -21,7 +21,7 @@ except Exception:
 # -----------------------
 load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY", "")
-st.set_page_config(page_title="Generative AI Vision App", page_icon="✨", layout="wide")
+st.set_page_config(page_title="IMAGE SUMMARY", page_icon="✨", layout="wide")
 
 # CSS + small animations (glass, glow, button bounce, chat bubbles)
 st.markdown(
